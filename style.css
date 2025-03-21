@@ -1,0 +1,78 @@
+
+
+/* Element Selector */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* ID Selector */
+#main-title {
+    text-align: center;
+    color: #007bff;
+    padding: 20px 0;
+    background-color: #e9ecef;
+}
+
+/* Class Selector */
+.content-section {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Styling an Image */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border: 3px solid #007bff;
+    border-radius: 8px;
+}
+
+/* Margin, Padding, and Borders */
+#styled-div {
+    width: 200px;
+    padding: 15px;
+    margin: 20px;
+    border: 2px dashed #007bff;
+    background-color: #e0f7fa;
+    text-align: center;
+    font-family: 'Courier New', monospace;
+}
+
+/* Link Style */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* Footer Styling */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #ffc107;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
